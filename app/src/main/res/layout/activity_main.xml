@@ -10,44 +10,18 @@
         android:layout_height="wrap_content"
         app:expanded="false">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+        <ImageButton
+            android:id="@+id/Hushlip_show"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
             android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:id="@+id/Hushlip_show"
-                android:layout_width="wrap_content"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:background="@android:color/transparent"
-                android:contentDescription="@string/hushlip_logo_go_to_home"
-                android:cropToPadding="true"
-                android:padding="10dp"
-                android:scaleType="fitStart"
-                android:src="@drawable/hushlip_fulllogo" />
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <ImageButton
-                android:id="@+id/Facebook_show"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:background="@android:color/transparent"
-                android:contentDescription="@string/facebook_page_button_to_open"
-                android:cropToPadding="true"
-                android:scaleType="fitXY"
-                android:src="@drawable/facebook_logo" />
-
-        </LinearLayout>
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/hushlip_logo_go_to_home"
+            android:cropToPadding="true"
+            android:padding="10dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/hushlip_fulllogo" />
 
     </android.support.design.widget.AppBarLayout>
 
